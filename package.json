@@ -1,0 +1,26 @@
+{
+  "name": "job-matcher-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Sidhartha Amperayani, Amritha Menon, Samridhi Pramanik",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
